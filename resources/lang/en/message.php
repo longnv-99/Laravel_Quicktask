@@ -36,4 +36,6 @@ return [
     'no-department' => 'No departments',
     'no-user' => 'No users',
     'quicktask' => 'Quicktask',
+    'long' => 'Long Nguyen',
+    'search' => 'Search',
 ];

@@ -1,0 +1,27 @@
+.fa-edit {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.fa-trash-alt {
+    font-size: 20px;
+    color: red;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.alert.alert-block {
+    margin-bottom: 0px;
+}
+
+.button-close,
+.button-add {
+    display: block;
+}
+
+.flagIcon {
+    max-width: 26px;
+}
