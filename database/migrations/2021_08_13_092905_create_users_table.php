@@ -19,8 +19,8 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->string('password');
             $table->string('address');
-            $table->string('position');
-            $table->foreignId('department_id')->constrained('departments');
+            $table->string('position')->nullable();
+            $table->foreignId('department_id')->constrained('departments')->onDelete('cascade');
             $table->rememberToken();
             $table->timestamps();
         });

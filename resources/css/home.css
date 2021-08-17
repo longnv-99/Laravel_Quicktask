@@ -25,3 +25,18 @@
 .flagIcon {
     max-width: 26px;
 }
+
+.main-content-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.brand-image{
+    opacity: .8,
+}
+
+.id-hidden{
+    display: none;
+}
