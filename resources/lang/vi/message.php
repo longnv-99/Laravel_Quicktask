@@ -36,4 +36,6 @@ return [
     'no-department' => 'Không có phòng ban nào',
     'no-user' => 'Không có nhân viên nào',
     'quicktask' => 'Nhiệm vụ',
+    'long' => 'Long Nguyễn',
+    'search' => 'Tìm kiếm',
 ];
