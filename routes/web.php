@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DepartmentController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,4 +18,6 @@ use App\Http\Controllers\HomeController;
 
 Route::get('/', [HomeController::class, 'home']);
 Route::resource('departments', DepartmentController::class);
+Route::resource('users', UserController::class)->except(['create', 'show']);
+Route::get('users/showCreate/{department}', [UserController::class, 'showCreate'])->name('users.showCreate');
 Route::get('change-language/{locale}', [HomeController::class, 'changeLanguage'])->name('change-language');

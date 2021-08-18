@@ -7,6 +7,7 @@ return [
     'department-page' => 'Trang quản lý phòng ban',
     'add-new-department' => 'Thêm mới phòng ban',
     'search-department' => 'Tìm kiếm phòng ban',
+    'search-user' => 'Tìm kiếm nhân viên',
     'stt' => 'STT',
     'name' => 'Tên',
     'des' => 'Mô tả',
@@ -38,4 +39,5 @@ return [
     'quicktask' => 'Nhiệm vụ',
     'long' => 'Long Nguyễn',
     'search' => 'Tìm kiếm',
+    'department' => 'Phòng ban',
 ];
