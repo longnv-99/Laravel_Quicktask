@@ -7,6 +7,7 @@ return [
     'department-page' => 'Department Page',
     'add-new-department' => 'Add new department',
     'search-department' => 'Search department',
+    'search-user' => 'Search user',
     'stt' => 'No.',
     'name' => 'Name',
     'des' => 'Description',
@@ -38,4 +39,5 @@ return [
     'quicktask' => 'Quicktask',
     'long' => 'Long Nguyen',
     'search' => 'Search',
+    'department' => 'Department',
 ];

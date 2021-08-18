@@ -31,7 +31,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" id="manageUser">
+                <a class="nav-link" href="{{ route('users.index') }}" id="manageUser">
                     <i class="nav-icon fas fa-user-friends"></i>
                     <p>{{ __('message.manage-user') }}</p>
                 </a>

@@ -52,7 +52,7 @@
                                     <td>{{ $department->name }}</td>
                                     <td>{{ $department->description }}</td>
                                     <td>
-                                        <a href="#">{{ __('message.add-user') }}</a>
+                                        <a href="{{ route('users.showCreate', $department) }}">{{ __('message.add-user') }}</a>
                                         <br>
                                         <a href="{{ route('departments.show', $department) }}">
                                             {{ __('message.view-list') }}
