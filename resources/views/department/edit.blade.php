@@ -34,6 +34,9 @@
                 <label for="description">{{ __('message.des') }}</label>
                 <textarea class="form-control" id="description" rows="3" name="description" >{{ 
                     $department->description }}</textarea>
+                @error('description')
+                    <p class="text-danger">{{ $message }}</p>
+                @enderror
             </div>
             <button type="submit" class="btn btn-primary">{{ __('message.submit') }}</button>
         </form>
