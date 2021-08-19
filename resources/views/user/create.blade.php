@@ -49,6 +49,9 @@
             <div class="form-group">
                 <label for="position">{{ __('message.position') }}</label>
                 <input type="text" class="form-control" id="position" name="position">
+                @error('position')
+                    <p class="text-danger">{{ $message }}</p>
+                @enderror
             </div>
             <button type="submit" class="btn btn-primary">{{ __('message.submit') }}</button>
         </form>
